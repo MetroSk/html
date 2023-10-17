@@ -1,0 +1,81 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ddd;
+  min-height: 100vh; /* Set a minimum height to fill the viewport */
+  position: relative; /* Set the body to relative positioning */
+}
+
+header {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ddd;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1em;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #66c2ff;
+}
+
+section {
+  margin: 1em;
+  border: 1px solid #ddd;
+  padding: 1em;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em;
+  border-top: 1px solid #ddd;
+  position: absolute;
+  bottom: 0; /* Stick the footer to the bottom */
+  width: 100%; /* Full width */
+}
+
+h3 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.videocenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
